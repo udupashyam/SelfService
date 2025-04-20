@@ -12,9 +12,6 @@ COMP_INFO_URL = "https://sandbox.api.sap.com/successfactors/odata/v2/Compensatio
 
 USERNAME = "sfapi@SFCPART000716"
 PASSWORD = "Welcome@12345"
-API_KEY = os.getenv("API_KEY")
-if not API_KEY:
-    raise RuntimeError("API_KEY environment variable not set.")
 
 HTML_FORM = """
     <h2>Employee Self Service</h2>
